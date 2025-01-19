@@ -1,0 +1,24 @@
+POST http://localhost:8000/api/v1/auth/register
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "cristhian",
+    "email": "cri@gmail.com",
+    "password": "cris123456",
+    "c_password": "cris123456"
+}
+
+### Autenticación
+POST http://localhost:8000/api/v1/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "cri@gmail.com",
+    "password": "cris123456"
+}
+
+### obtener el perfil
+GET http://localhost:8000/api/v1/auth/profile
+Accept: application/json
