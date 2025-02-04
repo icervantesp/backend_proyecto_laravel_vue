@@ -22,3 +22,4 @@ Content-Type: application/json
 ### obtener el perfil
 GET http://localhost:8000/api/v1/auth/profile
 Accept: application/json
+Authorization: Bearer 16|oAniV6hNaCdzUZVyELBvmW7k0lLEDPFB2DCQJs3sd8d82264
