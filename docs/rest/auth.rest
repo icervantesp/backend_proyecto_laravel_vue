@@ -15,11 +15,11 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "email": "cri@gmail.com",
-    "password": "cris123456"
+    "email": "admin@gmail.com",
+    "password": "admin123456"
 }
 
 ### obtener el perfil
 GET http://localhost:8000/api/v1/auth/profile
 Accept: application/json
-Authorization: Bearer 16|oAniV6hNaCdzUZVyELBvmW7k0lLEDPFB2DCQJs3sd8d82264
+Authorization: Bearer 2|Gbqb5X84vaMS6v9aUTFK2i7jN4WU9LTEwgh9yrABb51f75f9
